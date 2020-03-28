@@ -3,21 +3,21 @@ Colors to use:
 
 light blue: #1c5380
 */
-*{
+* {
   padding: 0;
   margin: 0;
 }
-main{
+main {
   margin: 150px 0 75px;
 }
-section{
+section {
   width: 500px;
 }
-figure{
+figure {
   margin-right: 35px;
 }
 
-h1{
+h1 {
   font-size: 2em;
   padding: 20px;
   color: #06365f;
@@ -28,63 +28,68 @@ body {
   background-repeat: repeat-x;
   background-size: 300px 300px;
 }
-main{
+main {
   display: flex;
   justify-content: center;
 }
-footer{
+footer {
   margin-bottom: 40px;
 }
-span{
+span {
   font-weight: 900;
 }
 
-p{
+p {
   height: 250px;
-  padding:20px ;
+  padding: 20px;
   font-size: 1.2em;
   letter-spacing: 1px;
 }
 
-ul{
+ul {
   list-style: none;
   text-decoration: none;
   display: flex;
   justify-content: center;
 }
 
-li a{
+li a {
   text-decoration: none;
-  color: #1470F5;
+  color: #1470f5;
   margin: 0 15px;
   font-weight: 900;
 }
-.insta{
+.insta {
   background-image: url(../images/frame.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  padding: 20px;
 }
 
-.color-grey{ 
+.color-grey {
   color: grey;
   font-weight: 900;
 }
 
-.block2{
+.block2 {
   margin-left: 35px;
-  
 }
 
-.home{
+.home {
+  display: flex;
+
+  align-items: center;
   text-decoration: none;
   padding: 10px;
-  background-color:#3897f0;
-  color: white;
-  border: 1px solid rgb(82, 82, 214);
-  margin-left: 10px;
+  border: 2px solid #315d84;
   border-radius: 5px;
+  color: #f0f2f4;
+  font-weight: bold;
+  font-size: 1.1em;
+  background: linear-gradient(180deg, #6f93b2 0%, #4a749a 100%);
+  cursor: pointer;
 }
-.btn-home{
+.btn-home {
   margin-top: 20px;
   float: right;
 }
